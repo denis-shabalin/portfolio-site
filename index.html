@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio website</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Manrope&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles/reset.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <link type="image/png" sizes="16x16" rel="icon" href="resources/logo.png">
+</head>
+<body>
+   <div class="content">
+      <section class="preview">
+         <div class="container">
+            <div class="header">
+               <div class="logo">
+                  <a class="logo-text" href="#">ORLOV</a>
+               </div>
+               <div class="nav">
+                  <a href="#projects" class="nav-link">портфолио</a>
+                  <a href="#skills" class="nav-link">компетенции</a>
+                  <a href="#services" class="nav-link">услуги</a>
+                  <a href="#contacts" class="nav-link">контакты</a>
+               </div>
+            </div>
+            <p class="text_info">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+            <h2 class="about_me">Привет, я Саша — фронтенд разарботчик и дизайнер сайтов</h2>
+         </div>
+      </section>
+      <section id="projects" class="projects">
+         <h3 class="projects-chapter">Самые свежие проекты</h3>
+         <div class="container">
+            <ul class="projects-list">
+               <li class="project">
+                  <img class="project__img" src="resources/realhome.jpg" alt="">
+                  <h4 class="project__title">Realhome</h4>
+                  <p class="project__text">дизайн,верстка, настройка</p>
+               </li>
+               <li class="project">
+                  <img class="project__img" src="resources/glass.jpg" alt="">
+                  <h4 class="project__title">GLASS</h4>
+                  <p class="project__text">разработка интерфейса</p>
+               </li>
+               <li class="project">
+                  <img class="project__img" src="resources/fesiyen.jpg" alt="">
+                  <h4 class="project__title">Fesiyen</h4>
+                  <p class="project__text">разработка интерфейса</p>
+               </li>
+            </ul>
+            <a class="project-click" href="#projects">Смотреть все проекты</a>
+         </div>
+      </section>
+      <section id="skills" class="skills">
+         <h3 class="skills-chapter">Мои компетенции</h3>
+         <div class="container">
+            <ul class="skills-list">
+               <li class="skill">
+                  <div class="skill__back">
+                     <img src="resources/html-logo.svg" alt="логотип файла и подписи HTML" class="skill__icon">
+                  </div>
+                  <h4 class="skill__title">HTML и CSS</h4>
+                  <p class="skill__text">это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы, а также применять стили к этим документам на CSS, является обязательным навыком для каждого фронтенд разработчика.</p>
+               </li>
+               <li class="skill">
+                  <div class="skill__back">
+                     <img src="resources/js-logo.svg" alt="логотип файла и подписи HTML" class="skill__icon">
+                  </div>
+                  <h4 class="skill__title">JavaScript</h4>
+                  <p class="skill__text">это язык программирования, который используется для создания динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне клиента.</p>
+               </li>
+               <li class="skill">
+                  <div class="skill__back">
+                     <img src="resources/phone-icon.svg" alt="логотип файла и подписи HTML" class="skill__icon">
+                  </div>
+                  <h4 class="skill__title">Работа с библиотеками и фреймворками</h4>
+                  <p class="skill__text">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+               </li>
+               <li class="skill">
+                  <div class="skill__back">
+                     <img src="resources/atom-icon.svg" alt="логотип файла и подписи HTML" class="skill__icon">
+                  </div>
+                  <h4 class="skill__title">Разработка для мобильных <br> устройств и адаптивная верстка</h4>
+                  <p class="skill__text">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section id="services" class="services">
+         <div class="container">
+            <h3 class="services__chapter">Помогаю реализовать широкий спектр задач</h3>
+            <ul class="services__list">
+               <li class="service">
+                  <img src="resources/development.jpg" alt="" class="service__image">
+                  <div class="gray">
+                     <h4 class="service__title">Разработка сайта под ключ</h4>
+                     <p class="service__text">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач <br> Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
+                  </div>
+               </li>
+               <li class="service">
+                  <img src="resources/layout.jpg" alt="" class="service__image">
+                  <div class="gray">
+                     <h4 class="service__title">Верстка сайтов</h4>
+                     <p class="service__text">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+                  </div>
+               </li>
+               <li class="service">
+                  <img src="resources/mobile-interface.jpg" alt="" class="service__image">
+                  <div class="gray">
+                     <h4 class="service__title">Разработка мобильного интерфейса</h4>
+                     <p class="service__text">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section id="contacts" class="contacts">
+         <img class="contacts__image" src="resources/cuate.svg" alt="">
+         <p class="contacts__title">для связи:</p>
+         <div class="nav-contact">
+            <ul class="contacts__list">
+               <li class="contact">
+                  <a href="https://instagram.com/shabalindenis03?igshid=ZDdkNTZiNTM=" class="contact__link">instagram</a>
+               </li>
+               <li class="contact">
+                  <a href="https://t.me/stormman995" class="contact__link">telegram</a>
+               </li>
+               <li class="contact">
+                  <a class="contact__link" href="mailto:">mail</a>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section class="footer">
+         <div class="footer__content">
+            <p class="footer__text">Портфолио фронтенд-разработчика Саши Орлова</p>
+            <p class="footer__info">Все права защищены. 2023</p>
+         </div>
+      </section>
+   </div>
+</body>
+</html>
