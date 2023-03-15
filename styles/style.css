@@ -7,18 +7,18 @@ body {
    margin: 0 auto;
    width: 100%;
    min-width: 1400px;
-   background-image: url(../resources/programmer-background.svg);
    height: 765px;
+   background-image: url(../resources/programmer-background.svg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 50% 10%;
 }
 .content {
+   margin: 0 auto;
+   min-width: 1400px;
    font-weight: 400;
    color: #FFFFFF;
    letter-spacing: -0.03em;
-   min-width: 1400px;
-   margin: 0 auto;
 }
 .container {
    width: 1150px;
@@ -31,20 +31,20 @@ body {
    position: relative;
 }
 .logo {
-   position: absolute;
-   top: 36px;
    width: 130px;
    height: 39px;
    padding: 0 16px 0 9px;
-   background: #000000;
+   position: absolute;
+   top: 36px;
+   background: #000;
    border-radius: 100px;
 }
 .logo-text {
-   text-align: center;
    font-weight: 700;
    font-size: 42px;
    line-height: 38px;
    letter-spacing: -0.11em;
+   text-align: center;
    color: #1BFF07;
    text-decoration: none;
 }
@@ -52,32 +52,27 @@ body {
    float: right;
    margin-top: 33px;
 }
-
 .nav-link {
    margin-left: 42px;
-   text-decoration: none;
    font-size: 18px;
    line-height: 23px;
    color: #FFFFFF;
+   text-decoration: none;
 }
-
 .nav-link:first-child {
    margin-left: 0;
 }
-
 .nav-link:hover {
    color: #1BFF07;
 }
-
 .text_info {
    width: 430px;
    font-size: 20px;
    line-height: 26px;
+   letter-spacing: -0.03em;
    position: absolute;
    top: 334px;
-   letter-spacing: -0.03em;
 }
-
 .about_me {
    width: 919px;
    height: 205px;
@@ -90,62 +85,53 @@ body {
 }
 .projects {
    margin: 0 auto;
+   margin-top: 150px;
    width: 1400px;
    min-width: 1400px;
    padding: 0 120px;
-   margin-top: 150px;
 }
 .projects-chapter {
+   margin-bottom: 40px;
    font-size: 55px;
    line-height: 72px;
-   margin-bottom: 40px;
    letter-spacing: -0.03em;
 }
-
-
-
-
 .projects-list {
    margin-bottom: 80px;
    list-style: none;
 }
-
 .project {
    position: relative;
    margin-bottom: -2px;
 }
-
 .project__img {
    height: 550px;
    width: 100%;
    border-radius: 30px;
 }
-
 .project__title {
    font-size: 35px;
    line-height: 46px;
    margin-bottom: 5px;
+   letter-spacing: -0.03em;
 
    position: absolute;
    top: 410px;
    left: 50px;
-   letter-spacing: -0.03em;
 }
 .project__text {
    font-size: 30px;
    line-height: 39px;
-
+   letter-spacing: -0.03em;
    margin-bottom: 50px;
 
    position: absolute;
    top: 461px;
    left: 50px;
-   letter-spacing: -0.03em;
 }
-
 .project-click {
    display: block;
-   margin-left: -2px; /* 3px */
+   margin-left: -2px;
    width: 582px;
    height: 153px;
    text-align: center;
@@ -162,7 +148,6 @@ body {
    background: #000000;
    border: 1px solid #1BFF07;
 }
-
 .skills {
    margin: 0 auto;
    width: 1400px;
@@ -170,48 +155,39 @@ body {
    padding: 0 120px;
    margin-top: 150px;
 }
-
 .skills-chapter {
    font-size: 55px;
    line-height: 72px;
-   margin-bottom: 49px;
    letter-spacing: -0.03em;
+   margin-bottom: 49px;
 }
-
 .skill {
    margin-bottom: 63px;
 }
-
 .skill__back {
    width: 45px;
    height: 44px;
    background: #1BFF07;
    border-radius: 10px;
    margin-bottom: 12px;
+
    display: flex;
    align-items: center;
    justify-content: center;
 }
-
-
-
 .skill__title {
-   margin-bottom: 15px;
    font-size: 35px;
    line-height: 46px;
    color: #1BFF07;
    letter-spacing: -0.03em;
+   margin-bottom: 15px;
 }
-
-
-
 .skill__text {
    width: 778px;
    font-size: 22px;
    line-height: 29px;
    letter-spacing: -0.03em;
 }
-
 .services {
    margin: 0 auto;
    width: 1400px;
@@ -220,37 +196,31 @@ body {
    margin-top: 150px;
    margin-bottom: 150px;
 }
-
 .services__chapter {
    width: 403px;
    font-size: 35px;
    line-height: 46px;
-   margin-bottom: 74px;letter-spacing: -0.03em;
+   margin-bottom: 74px;
+   letter-spacing: -0.03em;
 }
-
 .service {
    margin-bottom: 74px;
 }
-
 .service:nth-child(2) {
    margin-bottom: 137px;
 }
-
 .service__image {
-   height: 200px;
    width: 100%;
+   height: 200px;
    border-radius: 30px;
 }
-
 .gray {
    height: 283px;
    background: #191C19;
    border-radius: 30px;
-   padding-top: 40px;
-   padding-left: 40px;
+   padding: 40px 0 0 40px;
    margin-top: -2px;
 }
-
 .service__title {
    margin-bottom: 15px;
    font-size: 55px;
@@ -258,14 +228,12 @@ body {
    color: #1BFF07;
    letter-spacing: -0.03em;
 }
-
 .service__text {
    width: 724px;
    font-size: 22px;
    line-height: 29px;
    letter-spacing: -0.03em;
 }
-
 .contacts {
    margin: 0 auto;
    width: 1400px;
@@ -275,44 +243,37 @@ body {
    position: relative;
    margin-bottom: 150px;
 }
-
 .contacts__image {
    position: absolute;
    left: 673px;
    border-radius: 30px;
 }
-
 .contacts__title {
    font-size: 35px;
    line-height: 60px;
+   letter-spacing: -0.03em;
    position: absolute;
    top: 320px;
    left: 125px;
-   letter-spacing: -0.03em;
 }
-
 .nav-contact {
    position: absolute;
    top: 408px;
    left: 125px;
 }
-
 .contact {
    margin-bottom: 20px;
 }
-
 .contact__link {
    font-size: 60px;
    line-height: 60px;
    text-decoration: none;
-   color: #FFFFFF;
    letter-spacing: -0.03em;
+   color: #FFFFFF;
 }
-
 .contact__link:hover {
    color: #1BFF07;
 }
-
 .footer {
    background-color: #FFFFFF;
    border-top-left-radius: 30px;
@@ -321,12 +282,10 @@ body {
    width: 100%;
    min-width: 1400px;
 }
-
 .footer__content {
    width: 1150px;
    margin: 0 auto;
 }
-
 .footer__text {
    font-family: 'Manrope';
    font-size: 22px;
@@ -335,7 +294,6 @@ body {
    margin-bottom: 66px;
    letter-spacing: -0.03em;
 }
-
 .footer__info {
    font-family: 'Manrope';
    font-size: 20px;
