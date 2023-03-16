@@ -236,14 +236,18 @@ body {
 }
 .contacts {
    margin: 0 auto;
-   width: 1400px;
+   width: 100%;
    height: 717px;
    background: #191C19;
    border-radius: 30px;
-   position: relative;
    margin-bottom: 150px;
 }
-.contacts__image {
+.contacts__container {
+   width: 1400px;
+   margin: 0 auto;
+   position: relative;
+}
+.contacts__container-image {
    position: absolute;
    left: 673px;
    border-radius: 30px;
