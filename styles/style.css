@@ -1,3 +1,10 @@
+@import url(../styles/header.css);
+@import url(../styles/projects.css);
+@import url(../styles/skills.css);
+@import url(../styles/services.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
+
 html {
    scroll-behavior: smooth;
 }
@@ -5,305 +12,28 @@ body {
    font-family: 'IBM Plex Mono', monospace;
    background-color: #000000;
 }
-.preview {
-   margin: 0 auto;
-   width: 100%;
-   min-width: 1400px;
-   height: 765px;
-   background-image: url(../resources/programmer-background.svg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: 50% 10%;
-}
-.content {
-   margin: 0 auto;
-   min-width: 1400px;
+main {
    font-weight: 400;
    color: #FFFFFF;
    letter-spacing: -0.03em;
 }
+button {
+   font-family: inherit;
+   cursor: pointer;
+}
 .container {
    width: 1150px;
    margin: 0 auto;
-   position: relative;
 }
-.header {
-   width: 1150px;
-   margin: 0 auto;
-   position: relative;
+@media (max-width: 1199px) {
+   .container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 17px;
+   }
 }
-.logo {
-   width: 130px;
-   height: 39px;
-   padding: 0 16px 0 9px;
-   position: absolute;
-   top: 36px;
-   background: #000;
-   border-radius: 100px;
-}
-.logo-text {
-   font-weight: 700;
-   font-size: 42px;
-   line-height: 38px;
-   letter-spacing: -0.11em;
-   text-align: center;
-   color: #1BFF07;
-   text-decoration: none;
-}
-.nav {
-   float: right;
-   margin-top: 33px;
-}
-.nav-link {
-   margin-left: 42px;
-   font-size: 18px;
-   line-height: 23px;
-   color: #FFFFFF;
-   text-decoration: none;
-}
-.nav-link:first-child {
-   margin-left: 0;
-}
-.nav-link:hover {
-   color: #1BFF07;
-}
-.text_info {
-   width: 430px;
-   font-size: 20px;
-   line-height: 26px;
-   letter-spacing: -0.03em;
-   position: absolute;
-   top: 334px;
-}
-.about_me {
-   width: 919px;
-   height: 205px;
-   font-size: 80px;
-   line-height: 70px;
-   letter-spacing: -0.035em;
-   color: #1BFF07;
-   position: absolute;
-   top: 466px;
-}
-.projects {
-   margin: 0 auto;
-   margin-top: 150px;
-   width: 1400px;
-   min-width: 1400px;
-   padding: 0 120px;
-}
-.projects-chapter {
-   margin-bottom: 40px;
-   font-size: 55px;
-   line-height: 72px;
-   letter-spacing: -0.03em;
-}
-.projects-list {
-   margin-bottom: 80px;
-   list-style: none;
-}
-.project {
-   position: relative;
-   margin-bottom: -2px;
-}
-.project__img {
-   height: 550px;
-   width: 100%;
-   border-radius: 30px;
-}
-.project__title {
-   font-size: 35px;
-   line-height: 46px;
-   margin-bottom: 5px;
-   letter-spacing: -0.03em;
-
-   position: absolute;
-   top: 410px;
-   left: 50px;
-}
-.project__text {
-   font-size: 30px;
-   line-height: 39px;
-   letter-spacing: -0.03em;
-   margin-bottom: 50px;
-
-   position: absolute;
-   top: 461px;
-   left: 50px;
-}
-.project-click {
-   display: block;
-   margin-left: -2px;
-   width: 582px;
-   height: 153px;
-   text-align: center;
-   font-size: 30px;
-   line-height: 153px;
-   color: #000000;
-   background: #1BFF07;
-   text-decoration: none;
-   border-radius: 10px;
-   letter-spacing: -0.03em;
-}
-.project-click:hover {
-   color: #1BFF07;
-   background: #000000;
-   border: 1px solid #1BFF07;
-}
-.skills {
-   margin: 0 auto;
-   width: 1400px;
-   min-width: 1400px;
-   padding: 0 120px;
-   margin-top: 150px;
-}
-.skills-chapter {
-   font-size: 55px;
-   line-height: 72px;
-   letter-spacing: -0.03em;
-   margin-bottom: 49px;
-}
-.skill {
-   margin-bottom: 63px;
-}
-.skill__back {
-   width: 45px;
-   height: 44px;
-   background: #1BFF07;
-   border-radius: 10px;
-   margin-bottom: 12px;
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.skill__title {
-   font-size: 35px;
-   line-height: 46px;
-   color: #1BFF07;
-   letter-spacing: -0.03em;
-   margin-bottom: 15px;
-}
-.skill__text {
-   width: 778px;
-   font-size: 22px;
-   line-height: 29px;
-   letter-spacing: -0.03em;
-}
-.services {
-   margin: 0 auto;
-   width: 1400px;
-   min-width: 1400px;
-   padding: 0 120px;
-   margin-top: 150px;
-   margin-bottom: 150px;
-}
-.services__chapter {
-   width: 403px;
-   font-size: 35px;
-   line-height: 46px;
-   margin-bottom: 74px;
-   letter-spacing: -0.03em;
-}
-.service {
-   margin-bottom: 74px;
-}
-.service:nth-child(2) {
-   margin-bottom: 137px;
-}
-.service__image {
-   width: 100%;
-   height: 200px;
-   border-radius: 30px;
-}
-.gray {
-   height: 283px;
-   background: #191C19;
-   border-radius: 30px;
-   padding: 40px 0 0 40px;
-   margin-top: -2px;
-}
-.service__title {
-   margin-bottom: 15px;
-   font-size: 55px;
-   line-height: 72px;
-   color: #1BFF07;
-   letter-spacing: -0.03em;
-}
-.service__text {
-   width: 724px;
-   font-size: 22px;
-   line-height: 29px;
-   letter-spacing: -0.03em;
-}
-.contacts {
-   margin: 0 auto;
-   width: 100%;
-   height: 717px;
-   background: #191C19;
-   border-radius: 30px;
-   margin-bottom: 150px;
-}
-.contacts__container {
-   width: 1400px;
-   margin: 0 auto;
-   position: relative;
-}
-.contacts__container-image {
-   position: absolute;
-   left: 673px;
-   border-radius: 30px;
-}
-.contacts__title {
-   font-size: 35px;
-   line-height: 60px;
-   letter-spacing: -0.03em;
-   position: absolute;
-   top: 320px;
-   left: 125px;
-}
-.nav-contact {
-   position: absolute;
-   top: 408px;
-   left: 125px;
-}
-.contact {
-   margin-bottom: 20px;
-}
-.contact__link {
-   font-size: 60px;
-   line-height: 60px;
-   text-decoration: none;
-   letter-spacing: -0.03em;
-   color: #FFFFFF;
-}
-.contact__link:hover {
-   color: #1BFF07;
-}
-.footer {
-   background-color: #FFFFFF;
-   border-top-left-radius: 30px;
-   border-top-right-radius: 30px;
-   padding: 76px 125px 24px;
-   width: 100%;
-   min-width: 1400px;
-}
-.footer__content {
-   width: 1150px;
-   margin: 0 auto;
-}
-.footer__text {
-   font-family: 'Manrope';
-   font-size: 22px;
-   line-height: 30px;
-   color: #000000;
-   margin-bottom: 66px;
-   letter-spacing: -0.03em;
-}
-.footer__info {
-   font-family: 'Manrope';
-   font-size: 20px;
-   line-height: 27px;
-   color: #000000;
-   opacity: 0.5;
+@media (max-width: 767px) {
+   .container {
+      padding: 0 13px;
+   }
 }

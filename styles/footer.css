@@ -1,0 +1,27 @@
+.footer {
+   background-color: #FFFFFF;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   padding: 76px 125px 24px;
+   width: 100%;
+   min-width: 1400px;
+}
+.footer__content {
+   width: 1150px;
+   margin: 0 auto;
+}
+.footer__text {
+   font-family: 'Manrope';
+   font-size: 22px;
+   line-height: 30px;
+   color: #000000;
+   margin-bottom: 66px;
+   letter-spacing: -0.03em;
+}
+.footer__info {
+   font-family: 'Manrope';
+   font-size: 20px;
+   line-height: 27px;
+   color: #000000;
+   opacity: 0.5;
+}

@@ -1,0 +1,40 @@
+.skills {
+   margin: 0 auto;
+   width: 1400px;
+   min-width: 1400px;
+   padding: 0 120px;
+   margin-top: 150px;
+}
+.skills-chapter {
+   font-size: 55px;
+   line-height: 72px;
+   letter-spacing: -0.03em;
+   margin-bottom: 49px;
+}
+.skill {
+   margin-bottom: 63px;
+}
+.skill__back {
+   width: 45px;
+   height: 44px;
+   background: #1BFF07;
+   border-radius: 10px;
+   margin-bottom: 12px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.skill__title {
+   font-size: 35px;
+   line-height: 46px;
+   color: #1BFF07;
+   letter-spacing: -0.03em;
+   margin-bottom: 15px;
+}
+.skill__text {
+   width: 778px;
+   font-size: 22px;
+   line-height: 29px;
+   letter-spacing: -0.03em;
+}

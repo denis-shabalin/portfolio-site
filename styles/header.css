@@ -1,0 +1,68 @@
+.header {
+   height: 765px;
+   width: 100%;
+   min-width: 1400px;
+   background-image: url(../resources/programmer.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 10%;
+   position: relative;
+}
+.header-inner {
+   width: 1150px;
+   height: 55px;
+   margin: 0 auto;
+   padding-top: 27px;
+   display: flex;
+   justify-content: space-between;
+}
+.header__logo {
+   width: 130px;
+   height: 39px;
+   padding: 0 16px 0 9px;
+   background: #000;
+   border-radius: 100px;
+}
+.header__logo-text {
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 38px;
+   letter-spacing: -0.11em;
+   text-align: center;
+   color: #1BFF07;
+   text-decoration: none;
+}
+.nav {
+   display: flex;
+   gap: 42px;
+   margin-top: 6px;
+}
+.nav-link {
+   font-size: 18px;
+   line-height: 23px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.nav-link:hover {
+   color: #1BFF07;
+}
+.preview {
+   position: absolute;
+   top: 334px;
+}
+.preview__text {
+   width: 430px;
+   font-size: 20px;
+   line-height: 26px;
+   letter-spacing: -0.03em;
+   margin-bottom: 29px;
+   color: #FFFFFF;
+}
+.preview__title {
+   width: 919px;
+   height: 205px;
+   font-size: 80px;
+   line-height: 70px;
+   letter-spacing: -0.035em;
+   color: #1BFF07;
+}
