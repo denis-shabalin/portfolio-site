@@ -11,12 +11,12 @@ html {
 body {
    font-family: 'IBM Plex Mono', monospace;
    background-color: #000000;
-}
-main {
    font-weight: 400;
    color: #FFFFFF;
    letter-spacing: -0.03em;
+   margin: 0 auto;
 }
+
 button {
    font-family: inherit;
    cursor: pointer;

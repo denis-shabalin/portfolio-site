@@ -1,7 +1,5 @@
 .header {
    height: 765px;
-   width: 100%;
-   min-width: 1400px;
    background-image: url(../resources/programmer.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -9,9 +7,7 @@
    position: relative;
 }
 .header-inner {
-   width: 1150px;
    height: 55px;
-   margin: 0 auto;
    padding-top: 27px;
    display: flex;
    justify-content: space-between;

@@ -1,10 +1,5 @@
 .services {
-   margin: 0 auto;
-   width: 1400px;
-   min-width: 1400px;
-   padding: 0 120px;
-   margin-top: 150px;
-   margin-bottom: 150px;
+   padding: 150px 0;
 }
 .services__chapter {
    width: 403px;
@@ -14,32 +9,34 @@
    letter-spacing: -0.03em;
 }
 .service {
-   margin-bottom: 74px;
+   margin-bottom: 40px;
 }
-.service:nth-child(2) {
-   margin-bottom: 137px;
+.service:last-child {
+   margin-bottom: 0;
 }
 .service__image {
    width: 100%;
    height: 200px;
    border-radius: 30px;
 }
-.gray {
+.service__box {
+   display: flex;
+   justify-content: space-between;
    height: 283px;
    background: #191C19;
    border-radius: 30px;
-   padding: 40px 0 0 40px;
+   padding: 40px 45px 60px 40px;
    margin-top: -2px;
 }
 .service__title {
-   margin-bottom: 15px;
+   width: calc(50% - 35px);
    font-size: 55px;
-   line-height: 72px;
+   line-height: 61px;
    color: #1BFF07;
    letter-spacing: -0.03em;
 }
 .service__text {
-   width: 724px;
+   width: calc(50% - 28px);
    font-size: 22px;
    line-height: 29px;
    letter-spacing: -0.03em;

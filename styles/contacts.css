@@ -1,44 +1,59 @@
 .contacts {
-   margin: 0 auto;
-   width: 100%;
    height: 717px;
    background: #191C19;
    border-radius: 30px;
-   margin-bottom: 150px;
+   margin-bottom: 10px;
+   background-image: url(../resources/cuate.svg);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
-.contacts__container {
-   width: 1400px;
-   margin: 0 auto;
-   position: relative;
-}
-.contacts__container-image {
-   position: absolute;
-   left: 673px;
-   border-radius: 30px;
+.contacts__form {
+   width: calc(50% - 50px);
+   padding-top: 100px;
 }
 .contacts__title {
-   font-size: 35px;
-   line-height: 60px;
-   letter-spacing: -0.03em;
-   position: absolute;
-   top: 320px;
-   left: 125px;
-}
-.nav-contact {
-   position: absolute;
-   top: 408px;
-   left: 125px;
-}
-.contact {
-   margin-bottom: 20px;
-}
-.contact__link {
    font-size: 60px;
    line-height: 60px;
-   text-decoration: none;
+   letter-spacing: -0.03em;
+   margin-bottom: 60px;
+   max-width: 553px;
+}
+.input {
+   width: 100%;
+   height: 60px;
+   margin-bottom: 26px;
+   padding: 16px 40px 15px;
+   border-radius: 100px;
+   background-color: #3B3D3B;
+   border: none;
+   box-sizing: border-box;
+
+
+   font-size: 22px;
+   line-height: 29px;
    letter-spacing: -0.03em;
    color: #FFFFFF;
 }
-.contact__link:hover {
-   color: #1BFF07;
+.input:focus {
+   outline: none;
+}
+.input::placeholder {
+   color: #FFFFFF;
+   background-color: #3B3D3B;
+}
+.input:last-child {
+   margin-bottom: 60px;
+}
+.contacts__btn {
+   width: 450px;
+   height: 70px;
+   background: #1BFF07;
+   border-radius: 10px;
+   border: none;
+
+   font-size: 22px;
+   line-height: 29px;
+   letter-spacing: -0.03em;
+   text-align: center;
 }

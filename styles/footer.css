@@ -2,13 +2,16 @@
    background-color: #FFFFFF;
    border-top-left-radius: 30px;
    border-top-right-radius: 30px;
-   padding: 76px 125px 24px;
+   padding-top: 76px;
    width: 100%;
-   min-width: 1400px;
 }
-.footer__content {
-   width: 1150px;
-   margin: 0 auto;
+.footer__contacts {
+   display: flex;
+   justify-content: space-between;
+}
+.contacts__list {
+   display: flex;
+   gap: 24px;
 }
 .footer__text {
    font-family: 'Manrope';
@@ -18,7 +21,21 @@
    margin-bottom: 66px;
    letter-spacing: -0.03em;
 }
+.contact__link {
+   font-size: 22px;
+   line-height: 3 0px;
+   text-decoration: none;
+   letter-spacing: -0.03em;
+   color: #000;
+}
+.contact__link:hover {
+   color: #1BFF07;
+}
 .footer__info {
+   display: flex;
+   justify-content: space-between;
+}
+.footer__info-text {
    font-family: 'Manrope';
    font-size: 20px;
    line-height: 27px;
