@@ -88,5 +88,25 @@
    }
 }
 @media (max-width: 767px) {
-   
+   .header {
+      height: 716px;
+      background-image: url(../resources/programmer-mobile.jpg);
+   }
+   .header-inner {
+      padding-top: 23px;
+   }
+   .preview {
+      top: 338px;
+   }
+   .preview__text {
+      width: 310px;
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 10px;
+   }
+   .preview__title {
+      max-width: 353px;
+      font-size: 40px;
+      line-height: 47px;
+   }
 }

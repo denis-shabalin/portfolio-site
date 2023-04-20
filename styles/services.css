@@ -74,5 +74,30 @@
    }
 }
 @media (max-width: 767px) {
-   
+   .services {
+      padding: 104px 0 100px;
+   }
+   .service {
+      margin-bottom: 60px;
+   }
+   .service__image {
+      height: 225px;
+   }
+   .service__box {
+      display: block;
+      height: 397px;
+      padding: 30px 27px 31px 21px;
+   }
+   .box_narrow {
+      height: 307px;
+   }
+   .service__title {
+      width: 100%;
+      font-size: 35px;
+      line-height: 39px;
+      margin-bottom: 15px;
+   }
+   .service__text {
+      width: 100%;
+   }
 }

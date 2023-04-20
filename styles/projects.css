@@ -121,5 +121,33 @@
    }
 }
 @media (max-width: 767px) {
-   
+   .projects {
+      padding-top: 100px;
+   }
+   .projects-chapter {
+      font-size: 30px;
+      line-height: 39px;
+      margin-bottom: 34px;
+   }
+   .project__subtitle {
+      top: 30px;
+      left: 33px;
+      padding: 6px 20px;
+      font-size: 13px;
+      line-height: 18px;
+   }
+   .project__title {
+      left: 35px;
+   }
+   .project__text {
+      left: 35px;
+      font-size: 16px;
+      line-height: 21px;
+   }
+   .project-click {
+      width: 100%;
+      height: 80px;
+      font-size: 18px;
+      line-height: 80px;
+   }
 }

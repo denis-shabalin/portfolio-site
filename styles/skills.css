@@ -77,5 +77,21 @@
    }
 }
 @media (max-width: 767px) {
-   
+   .skills {
+      padding-top: 100px;
+   }
+   .skills-chapter {
+      margin-bottom: 60px;
+      font-size: 30px;
+      line-height: 39px;
+   }
+   .skill {
+      width: 100%;
+   }
+   .skill__back {
+      margin-bottom: 10px;
+   }
+   .skills-list {
+      row-gap: 60px;
+   }
 }
