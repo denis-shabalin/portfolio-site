@@ -19,6 +19,9 @@
    text-decoration: none;
    color: #FFFFFF;
 }
+.project__title:hover {
+   color: #1BFF07;
+}
 .project__subtitle {
    position: absolute;
    top: 50px;
@@ -74,4 +77,5 @@
    color: #1BFF07;
    background: #000000;
    border: 1px solid #1BFF07;
+   transition: .3s linear;
 }

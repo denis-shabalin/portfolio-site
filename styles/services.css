@@ -5,7 +5,7 @@
    width: 403px;
    font-size: 35px;
    line-height: 46px;
-   margin-bottom: 74px;
+   margin-bottom: 80px;
    letter-spacing: -0.03em;
 }
 .service {
@@ -22,6 +22,7 @@
 .service__box {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    height: 283px;
    background: #191C19;
    border-radius: 30px;
@@ -36,7 +37,7 @@
    letter-spacing: -0.03em;
 }
 .service__text {
-   width: calc(50% - 28px);
+   width: calc(50% - 8px);
    font-size: 22px;
    line-height: 29px;
    letter-spacing: -0.03em;

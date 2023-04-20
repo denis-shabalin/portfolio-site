@@ -5,7 +5,7 @@
    font-size: 55px;
    line-height: 72px;
    letter-spacing: -0.03em;
-   margin-bottom: 49px;
+   margin-bottom: 80px;
 }
 .skills-list {
    display: flex;
@@ -14,14 +14,14 @@
    row-gap: 40px;
 }
 .skill {
-   width: calc(50% - 24px);
+   width: calc(50% - 4px);
 }
 .skill__back {
    width: 45px;
    height: 44px;
    background: #1BFF07;
    border-radius: 10px;
-   margin-bottom: 12px;
+   margin-bottom: 15px;
 
    display: flex;
    align-items: center;
@@ -35,7 +35,6 @@
    margin-bottom: 15px;
 }
 .skill__text {
-   /* width: 778px; */
    font-size: 22px;
    line-height: 29px;
    letter-spacing: -0.03em;
