@@ -40,3 +40,26 @@
    color: #000000;
    opacity: 0.5;
 }
+
+@media (max-width: 1199px) {
+   .footer {
+      padding: 52px 25px 25px;
+      border-radius: 20px 20px 0 0;
+   }
+   .footer__text {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 43px;
+   }
+   .contact__link {
+      font-size: 16px;
+      line-height: 22px;
+   }
+   .footer__info-text {
+      font-size: 14px;
+      line-height: 19px;
+   }
+}
+@media (max-width: 767px) {
+   
+}

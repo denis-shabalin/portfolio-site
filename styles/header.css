@@ -62,3 +62,31 @@
    letter-spacing: -0.035em;
    color: #1BFF07;
 }
+
+@media (max-width: 1199px) {
+   .header {
+      background-image: url(../resources/programmer-tablet.jpg);
+   }
+   .nav {
+      display: none;
+   }
+   .header-inner {
+      padding-top: 32px;
+   }
+   .preview {
+      top: 368px;
+   }
+   .preview__text {
+      width: 430px;
+      font-size: 20px;
+      line-height: 26px;
+   }
+   .preview__title {
+      max-width: 727px;
+      font-size: 60px;
+      line-height: 70px;
+   }
+}
+@media (max-width: 767px) {
+   
+}

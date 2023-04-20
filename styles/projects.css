@@ -27,6 +27,7 @@
    top: 50px;
    left: 50px;
    padding: 10px 20px;
+   font-family: 'Manrope';
    background-color: #1BFF07;
    border-radius: 100px;
    font-size: 20px;
@@ -78,4 +79,47 @@
    background: #000000;
    border: 1px solid #1BFF07;
    transition: .3s linear;
+}
+@media (max-width: 1199px) {
+   .projects-chapter {
+      font-size: 45px;
+      line-height: 58px;
+      margin-bottom: 53px;
+   }
+   .projects-list {
+      margin-bottom: 64px;
+   }
+   .project__img {
+      height: 445px;
+      object-fit: cover;
+      border-radius: 24px;
+   }
+   .project__subtitle {
+      top: 40px;
+      left: 35px;
+      padding: 8px 16px;
+      font-size: 16px;
+      line-height: 22px;
+   }
+   .project__title {
+      top: 333px;
+      left: 40px;
+      font-size: 28px;
+      line-height: 36px;
+   }
+   .project__text {
+      top: 374px;
+      left: 40px;
+      font-size: 24px;
+      line-height: 31px;
+   }
+   .project-click {
+      width: 460px;
+      height: 124px;
+      font-size: 24px;
+      line-height: 124px;
+   }
+}
+@media (max-width: 767px) {
+   
 }

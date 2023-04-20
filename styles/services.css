@@ -42,3 +42,37 @@
    line-height: 29px;
    letter-spacing: -0.03em;
 }
+@media (max-width: 1199px) {
+   .services {
+      padding: 154px 0 110px;
+   }
+   .services__chapter {
+      width: 326px;
+      font-size: 28px;
+      line-height: 37px;
+      margin-bottom: 56px;
+   }
+   .service {
+      margin-bottom: 32px;
+   }
+   .service__image {
+      height: 162px;
+      border-radius: 24px;
+   }
+   .service__box {
+      height: 229px;
+      padding: 32px 36px 47px 32px;
+   }
+   .service__title {
+      font-size: 45px;
+      line-height: 50px;
+   }
+   .service__text {
+      width: calc(50% - 7px);
+      font-size: 18px;
+      line-height: 23px;
+   }
+}
+@media (max-width: 767px) {
+   
+}
