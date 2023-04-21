@@ -82,6 +82,7 @@
    }
    .service__image {
       height: 225px;
+      object-fit: cover;
    }
    .service__box {
       display: block;

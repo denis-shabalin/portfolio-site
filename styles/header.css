@@ -42,6 +42,10 @@
 .nav-link:hover {
    color: #1BFF07;
 }
+.burger-btn {
+   display: none;
+}
+
 .preview {
    position: absolute;
    top: 334px;
@@ -55,7 +59,7 @@
    color: #FFFFFF;
 }
 .preview__title {
-   width: 919px;
+   max-width: 919px;
    height: 205px;
    font-size: 80px;
    line-height: 70px;
@@ -72,6 +76,17 @@
    }
    .header-inner {
       padding-top: 32px;
+   }
+   .burger-btn {
+      display: block;
+      margin-top: 4px;
+      width: 36px;
+      height: 36px;
+      background: none;
+      border: none;
+      background-repeat: no-repeat;
+      background-image: url(../resources/burger-icon.svg);
+      z-index: 100;
    }
    .preview {
       top: 368px;
