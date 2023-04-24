@@ -20,14 +20,14 @@
    border-radius: 30px;
 }
 .service__box {
+   height: 283px;
+   padding: 40px 45px 60px 40px;
+   margin-top: -2px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   height: 283px;
    background: #191C19;
    border-radius: 30px;
-   padding: 40px 45px 60px 40px;
-   margin-top: -2px;
 }
 .service__title {
    width: calc(50% - 35px);
@@ -48,9 +48,9 @@
    }
    .services__chapter {
       width: 326px;
+      margin-bottom: 56px;
       font-size: 28px;
       line-height: 37px;
-      margin-bottom: 56px;
    }
    .service {
       margin-bottom: 32px;
@@ -94,9 +94,9 @@
    }
    .service__title {
       width: 100%;
+      margin-bottom: 15px;
       font-size: 35px;
       line-height: 39px;
-      margin-bottom: 15px;
    }
    .service__text {
       width: 100%;

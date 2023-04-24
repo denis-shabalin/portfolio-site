@@ -19,12 +19,12 @@
    visibility: visible;
 }
 .burger-btn_open {
-   background-image: url(../resources/burger-close-btn.svg);
+   margin-top: -12px;
    width: 34px;
    height: 34px;
+   background-image: url(../resources/burger-close-btn.svg);
    background-repeat: no-repeat;
    background-position: center;
-   margin-top: -12px;
 }
 .burger__content {
    width: 362px;
@@ -43,10 +43,10 @@
    border: 1px solid #1BFF07;
 }
 .burger-nav {
+   margin-bottom: 91px;
    display: flex;
    flex-direction: column;
    gap: 21px;
-   margin-bottom: 91px;
 }
 .burger-nav__link {
    font-size: 25px;

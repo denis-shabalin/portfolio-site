@@ -41,24 +41,24 @@
    border-radius: 30px;
 }
 .project__title {
-   font-size: 35px;
-   line-height: 46px;
    margin-bottom: 5px;
-   letter-spacing: -0.03em;
-
    position: absolute;
    top: 410px;
    left: 50px;
+
+   font-size: 35px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
 }
 .project__text {
-   font-size: 30px;
-   line-height: 39px;
-   letter-spacing: -0.03em;
    margin-bottom: 50px;
-
    position: absolute;
    top: 461px;
    left: 50px;
+   
+   font-size: 30px;
+   line-height: 39px;
+   letter-spacing: -0.03em;
 }
 .project-click {
    display: block;

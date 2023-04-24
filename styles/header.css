@@ -1,10 +1,10 @@
 .header {
+   position: relative;
    height: 765px;
    background-image: url(../resources/programmer.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 50% 10%;
-   position: relative;
 }
 .header-inner {
    height: 55px;
@@ -52,10 +52,10 @@
 }
 .preview__text {
    width: 430px;
+   margin-bottom: 29px;
    font-size: 20px;
    line-height: 26px;
    letter-spacing: -0.03em;
-   margin-bottom: 29px;
    color: #FFFFFF;
 }
 .preview__title {

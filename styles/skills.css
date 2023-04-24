@@ -2,10 +2,10 @@
    padding-top: 150px;
 }
 .skills-chapter {
+   margin-bottom: 80px;
    font-size: 55px;
    line-height: 72px;
    letter-spacing: -0.03em;
-   margin-bottom: 80px;
 }
 .skills-list {
    display: flex;
@@ -19,21 +19,20 @@
 .skill__back {
    width: 45px;
    height: 44px;
+   margin-bottom: 15px;
    background: #1BFF07;
    border-radius: 10px;
-   margin-bottom: 15px;
-
    display: flex;
    align-items: center;
    justify-content: center;
 }
 .skill__title {
    height: 46px;
+   margin-bottom: 15px;
    font-size: 35px;
    line-height: 46px;
    color: #1BFF07;
    letter-spacing: -0.03em;
-   margin-bottom: 15px;
 }
 .skill__title_large {
    height: 138px;
@@ -57,15 +56,15 @@
       row-gap: 41px;
    }
    .skill__back {
+      margin-bottom: 12px;
       width: 36px;
       height: 36px;
-      margin-bottom: 12px;
    }
    .skill__title {
       height: 36px;
+      margin-bottom: 11px;
       font-size: 28px;
       line-height: 36px;
-      margin-bottom: 11px;
    }
    .skill__title_large {
       height: 108px;
