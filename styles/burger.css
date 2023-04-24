@@ -1,3 +1,6 @@
+.body_fixed {
+   overflow: hidden;
+}
 .burger {
    position: fixed;
    top: 0;
@@ -9,10 +12,10 @@
    background-color: rgba(0, 0, 0, 0.9);
    opacity: 0;
    visibility: hidden;
-   transition: all 0.4s ease;
 }
 .burger_open {
    opacity: 1;
+   z-index: 1;
    visibility: visible;
 }
 .burger-btn_open {
@@ -29,6 +32,11 @@
    padding: 55px 37px 0;
    background-color: #000;
    overflow-y: auto;
+   transition: transform 0.4s linear;
+   transform: translateX(100%);
+}
+.burger_open .burger__content {
+   transform: translateX(0);
 }
 .burger__logo {
    margin-bottom: 37px;
@@ -54,9 +62,6 @@
    line-height: 21px;
    opacity: 0.5;
    margin-bottom: 1px;
-}
-.burger__contacts {
-   
 }
 .burger__contact-link {
    font-size: 20px;
