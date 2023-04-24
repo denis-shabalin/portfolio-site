@@ -106,7 +106,7 @@
       padding-left: 0;
    }
    .contacts__title {
-      width: 310px;
+      max-width: 310px;
       font-size: 35px;
       line-height: 37px;
       margin-bottom: 40px;
